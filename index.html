@@ -22,13 +22,18 @@
   <div class="container">
     <div class="content">
       <div id="drawing-space">
+              <div class="qr-section">
+        <h3>Scan this QR code to open on your phone:</h3>
+        <img src="img/qr.png" alt="QR Code to access site" width="200">
+      </div>
+    </div>
+      <div id="drawing-space">
         <div id="model-load" style="height: 336;
                                     width: 336;
                                     background-color: #0000000d;
                                     position: absolute;
                                     z-index: 1;
                                     text-align: center;">
-Loading model...
         </div>
         <canvas id="canvas" width="336" height="336"></canvas>
       </div>
@@ -41,10 +46,6 @@ Loading model...
       </div>
     </div>
     <canvas id="scaled-canvas" style="display:none" width="28" height="28"></canvas>
-      <div style="text-align:center; margin-top: 20px;">
-        <h3>Scan this QR code to open on your phone:</h3>
-        <img src="img/qr.png" alt="QR Code to access site" width="200">
-      </div>
   </div>
   <div class="footer">
     <br>
